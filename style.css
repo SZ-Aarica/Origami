@@ -1,6 +1,30 @@
 .origami-crane {
   max-width: 45px;
 }
+
 .backround {
   background: #d2f4ea;
+}
+.headline {
+  text-align: center;
+  margin: 20px;
+}
+
+.headOne {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.headline {
+  font-size: 45px;
+}
+.hero {
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 20px;
+  background-color: #d2f4ea;
+}
+.explanation {
+  font-size: 20px;
 }
