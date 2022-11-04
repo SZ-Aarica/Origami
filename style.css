@@ -1,9 +1,15 @@
+:root{
+  --base-color : #f8f3b6;
+  
+  --font-color :#54567a;
+
+}
 .origami-crane {
   max-width: 45px;
 }
 
 .backround {
-  background: #d2f4ea;
+  background: #dab784;
 }
 .headline {
   text-align: center;
@@ -14,6 +20,7 @@
   margin-left: 15px;
   font-weight: bold;
   font-size: 25px;
+  color: #ee8374;
 }
 .headline {
   font-size: 45px;
@@ -23,8 +30,52 @@
   padding-top: 40px;
   padding-bottom: 40px;
   margin: 20px;
-  background-color: #d2f4ea;
+  background-color: var(--base-color);
+  color: var(--font-color);
 }
 .explanation {
   font-size: 20px;
+  color: var(--font-color);
+}
+.lineOne{
+  display: flex;
+  justify-content: space-between;
+}
+@media(max-width:900px){
+.large{
+  display: none;
+}
+}@media(min-width:900px) {
+  .small {
+    display: none;
+  }
+}
+.reason{
+  background: var(--base-color);
+  margin: 10px;
+  padding: 12px;
+  margin-bottom: 25px;
+  font-size: 17px;
+  color: var(--font-color);
+}
+.why{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.crane{
+  background: var(--base-color);
+  margin-left: 25px;
+  padding: 20px;
+  font-size: 30px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+  padding-top: 30px;
+  color: var(--font-color);
+}
+video{
+  margin-bottom: 20px;
+}
+span{
+  color: #ee8374;
 }
