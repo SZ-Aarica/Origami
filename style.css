@@ -41,15 +41,7 @@
   display: flex;
   justify-content: space-between;
 }
-@media(max-width:900px){
-.large{
-  display: none;
-}
-}@media(min-width:900px) {
-  .small {
-    display: none;
-  }
-}
+
 .reason{
   background: var(--base-color);
   margin: 10px;
@@ -78,4 +70,18 @@ video{
 }
 span{
   color: #ee8374;
+}
+@media(max-width:900px) {
+  .large {
+    display: none;
+  }
+  .heart{
+  margin-left: 100px;
+  }
+}
+
+@media(min-width:900px) {
+  .small {
+    display: none;
+  }
 }
