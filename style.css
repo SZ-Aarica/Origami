@@ -68,7 +68,7 @@
 video{
   margin-bottom: 20px;
 }
-span{
+div span{
   color: #ee8374;
 }
 @media(max-width:900px) {
