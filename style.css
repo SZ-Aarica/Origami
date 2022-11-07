@@ -49,6 +49,8 @@
   margin-bottom: 25px;
   font-size: 17px;
   color: var(--font-color);
+  font-weight: 500;
+  font-size: 17px;
 }
 .why{
   margin-top: 10px;
@@ -68,9 +70,7 @@
 video{
   margin-bottom: 20px;
 }
-div span{
-  color: #ee8374;
-}
+
 @media(max-width:900px) {
   .large {
     display: none;
@@ -78,10 +78,54 @@ div span{
   .heart{
   margin-left: 100px;
   }
+  
+ 
 }
 
 @media(min-width:900px) {
   .small {
     display: none;
   }
+   h1:hover {
+  margin-left: 150px;
+  margin-right: 150px;
+  }
+    .funFactSm {
+      display: none;
+      
+    }
 }
+h2{
+  margin-top: 20px;
+  padding-left: 15px;
+padding-top: 5px;
+  padding-bottom: 5px;}
+
+h2,
+h1{
+background: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 8px;
+transition: all 100ms ease-in-out;
+
+}
+.funFact{
+  background: var(--base-color);
+  padding: 10px;
+  margin-top: 35px;
+  font-size:29px;
+
+}
+  .funFactSm {
+    font-size: 18px;
+  }
+  .container{
+    font-family: 'Dosis', sans-serif;
+  }
+  nav{
+    font-family: 'Dosis', sans-serif;
+  }
+  .history{
+    font-size: 19px;
+  }
