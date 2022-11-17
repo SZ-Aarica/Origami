@@ -2,8 +2,12 @@
   --base-color : #f8f3b6;
   
   --font-color :#54567a;
-
+  --headline-color: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+  --radius : 8px;
 }
+ .container {
+   font-family: 'Dosis', sans-serif;
+ }
 .origami-crane {
   max-width: 45px;
 }
@@ -57,44 +61,23 @@
   margin-bottom: 10px;
   font-size: 18px;
 }
-.crane{
+.crane,
+.lead
+{
   background: var(--base-color);
   margin-left: 25px;
   padding: 20px;
   font-size: 30px;
   margin-bottom: 40px;
   margin-right: 40px;
-  padding-top: 30px;
+  padding-top: 25px;
   color: var(--font-color);
 }
 video{
   margin-bottom: 20px;
 }
 
-@media(max-width:900px) {
-  .large {
-    display: none;
-  }
-  .heart{
-  margin-left: 100px;
-  }
-  
- 
-}
 
-@media(min-width:900px) {
-  .small {
-    display: none;
-  }
-   h1:hover {
-  margin-left: 150px;
-  margin-right: 150px;
-  }
-    .funFactSm {
-      display: none;
-      
-    }
-}
 h2{
   margin-top: 20px;
   padding-left: 15px;
@@ -103,10 +86,10 @@ padding-top: 5px;
 
 h2,
 h1{
-background: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+background: var(--headline-color);
 padding-top: 5px;
 padding-bottom: 5px;
-border-radius: 8px;
+border-radius: var(--radius);
 transition: all 100ms ease-in-out;
 
 }
@@ -120,12 +103,49 @@ transition: all 100ms ease-in-out;
   .funFactSm {
     font-size: 18px;
   }
-  .container{
-    font-family: 'Dosis', sans-serif;
-  }
+ 
   nav{
     font-family: 'Dosis', sans-serif;
   }
   .history{
     font-size: 19px;
   }
+@media(max-width:900px) {
+  .large {
+    display: none;
+  }
+
+  .heart {
+    margin-left: 100px;
+  }
+}
+
+
+@media(min-width:900px) {
+  .small {
+    display: none;
+  }
+
+  h1:hover {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .funFactSm {
+    display: none;
+
+  }
+}
+.folds{
+  background: var(--headline-color);
+  font-size: 20px;
+  padding: 6px;
+  border-radius: var(--radius)
+   
+}
+p{
+  font-size: 20px;
+  padding: 8px;
+  border-right: 2px solid #583937;
+  border-bottom: 2px solid #583937;
+}
