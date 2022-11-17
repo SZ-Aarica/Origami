@@ -61,8 +61,13 @@
   margin-bottom: 10px;
   font-size: 18px;
 }
-.crane,
-.lead
+.lead{
+background: var(--base-color);
+  padding: 20px;
+    font-size: 30px;
+}
+.crane
+
 {
   background: var(--base-color);
   margin-left: 25px;
